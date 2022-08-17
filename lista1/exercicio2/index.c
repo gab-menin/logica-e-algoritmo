@@ -17,7 +17,7 @@ int main()
     valorFinal = valorFabrica + valorImpostos + valorRevendedor;
 
     printf("Nome do carro: %s\n", nomeCarro);
-    printf("Valor final do carro: %.2f\n", valorFinal);
+    printf("Valor final do carro: R$ %.2f\n", valorFinal);
 
     return 0;
 }
