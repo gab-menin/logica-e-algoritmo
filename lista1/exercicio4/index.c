@@ -20,7 +20,7 @@ void sort(float numberArray[], int sizeOfArray)
         }
     }
 
-        printf("O menor número é: %.0f\n", numberArray[0]);
+    printf("O menor número é: %.0f\n", numberArray[0]);
 }
 
 int main()
