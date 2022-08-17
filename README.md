@@ -3,4 +3,4 @@
 <br />
 <br />
 
-<p>Repositório para guardar meus exercícios da disciplina de lógica e algoritmos</p>
+<p>Repositório para guardar meus exercícios da disciplina de lógica e algoritmos.</p>
