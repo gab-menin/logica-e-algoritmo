@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+4 – Algoritmo 3 Menores
+Faça um algoritmo que leia 3 números inteiros e imprima o menor deles.
+*/
+
 void sort(float numberArray[], int sizeOfArray)
 {
     int

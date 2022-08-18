@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+1 - Algoritmo do Triangulo
+Faça um algoritmo para ler a base e a altura de um triângulo. Em seguida, escreva a área do
+mesmo. Área = (Base * Altura) / 2
+*/
+
 int main()
 {
     float base, altura, area;

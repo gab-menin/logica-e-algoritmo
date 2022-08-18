@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*
+5 – Algoritmo PA – Progressão Aritmética
+Faça um programa que imprima os elementos de uma PA e o somatório da mesma dados :
+primeiro termo , numero de termos e razão.
+*/
+
 int main()
 {
     float
