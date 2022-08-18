@@ -30,16 +30,22 @@ void sort(float numberArray[], int sizeOfArray)
 
 int main()
 {
-    float numberArray[3] = {};
-    int i;
+    float
+        numberArray[256] = {};
+    int
+        i,
+        numberOfRepeats;
 
-    for (i = 0; i < 3; i++)
+    printf("Quantos números você deseja inserir? ");
+    scanf("%d", &numberOfRepeats);
+
+    for (i = 0; i < numberOfRepeats; i++)
     {
         printf("Digite o elemento número %d: ", i + 1);
         scanf("%f", &numberArray[i]);
     }
 
-    int sizeOfArray = sizeof(numberArray) / sizeof(numberArray[0]);
+    int sizeOfArray = numberOfRepeats;
 
     sort(numberArray, sizeOfArray);
 
